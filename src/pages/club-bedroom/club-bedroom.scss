@@ -1,0 +1,78 @@
+page-club-bedroom {
+@import url('https://fonts.googleapis.com/css?family=Dosis:500');
+
+  .scroll-content{
+    background-color: #e8e8e8
+  }
+
+  .appLogo{
+
+    width: 70%;
+    position: relative;
+    text-align: center;
+    margin-left: 15%
+  }
+
+  .backButton{
+    margin-top: -1vh;
+  }
+
+  .banner{
+    margin-top:-1vh;
+    position: relative;
+    text-align: center;
+    border-radius: 6px;
+    // box-shadow: 0px 2px 10px #aeaeae;
+    margin-bottom: 4vh;
+    width:60%;
+    margin-left: 20%;
+  }
+
+  iframe {
+    position: relative;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px #aeaeae;
+    margin-bottom: 3vh;
+
+  }
+
+  p{
+    font-family: 'Dosis';
+    font-size: 110%;
+  }
+
+  h3{
+    font-family: 'Dosis';
+    font-size: 150%;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .poster{
+    width:70%;
+    margin-left:15%;
+    margin-bottom: 6vh;
+    border-radius: 6px;
+  }
+
+  .bottleServiceEnquiry{
+    width:70%;
+    margin-left:15%;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .bottleServiceButton{
+    background-color: #C612E5;
+    width:70%;
+    margin-left:15%;
+    height: 5vh;
+    border-radius: 10px;
+    font-family: 'Dosis';
+    font-size: 110%;
+    text-align: center;
+    font-weight: bold;
+  }
+
+}

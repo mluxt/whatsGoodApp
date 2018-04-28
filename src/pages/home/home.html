@@ -1,14 +1,59 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <ion-content class="card-background-page">
+
+    <img class="appLogo" src="assets/imgs/appLogo.png">
+
+
+      <ion-card >
+        <div class="moreGoldcoast"(click)="openGoldcoastPage()">
+          <img src="assets/imgs/cities/card-goldcoast.png"/>
+          <div class="card-title">Gold Coast</div>
+          <div class="card-subtitle">41 Listings</div>
+        </div>
+      </ion-card>
+
+      <ion-card>
+        <div class="moreBrisbane"(click)="openBrisbanePage()">
+          <img src="assets/imgs/cities/card-brisbane.png"/>
+          <div class="card-title">Brisbane</div>
+          <div class="card-subtitle">64 Listings</div>
+        </div>
+      </ion-card>
+
+      <ion-card>
+        <div class="moreSydney"(click)="openSydneyPage()">
+          <img src="assets/imgs/cities/card-sydney.png"/>
+          <div class="card-title">Sydney</div>
+          <div class="card-subtitle">72 Listings</div>
+        </div>
+      </ion-card>
+
+      <ion-card>
+        <div class="moreBrisbane"(click)="openBrisbanePage()">
+          <img src="assets/imgs/cities/card-melbourne.png"/>
+          <div class="card-title">Melbourne</div>
+          <div class="card-subtitle">28 Listings</div>
+        </div>
+      </ion-card>
+
+      <ion-card>
+        <div class="moreBrisbane"(click)="openBrisbanePage()">
+          <img src="assets/imgs/cities/card-perth.png"/>
+          <div class="card-title">Perth</div>
+          <div class="card-subtitle">12 Listings</div>
+        </div>
+      </ion-card>
+
+      <ion-card>
+        <div class="moreBrisbane"(click)="openBrisbanePage()">
+          <img src="assets/imgs/cities/card-adelaide.png"/>
+          <div class="card-title">Adelaide</div>
+          <div class="card-subtitle">8 Listings</div>
+        </div>
+      </ion-card>
+
+
+
+    </ion-content>
 </ion-content>

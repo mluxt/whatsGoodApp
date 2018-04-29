@@ -5,6 +5,8 @@ import { CityGoldcoastPage } from '../city-goldcoast/city-goldcoast';
 import { CityBrisbanePage } from '../city-brisbane/city-brisbane';
 import { CitySydneyPage } from '../city-sydney/city-sydney';
 
+import { ContactPage } from '../contact/contact';
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -36,6 +38,10 @@ export class HomePage {
 
   openAdelaidePage() {
     this.navCtrl.push(CityGoldcoastPage)
+  }
+
+  openContactPage() {
+    this.navCtrl.push(ContactPage)
   }
 
 }
